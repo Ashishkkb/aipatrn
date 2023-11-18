@@ -20,7 +20,7 @@ export default function Footer() {
                         </div>
                         <div className="text-white text-md absolute font-bold bottom-6 left-4">
                             <button
-                                className="text-white text-base rounded-full border-solid border-white border-4 px-6 py-2 max-md:px-5 flex flex-row justify-between"
+                                className="text-white text-base rounded-full border-solid border-white border-4 px-6 py-2 max-md:px-5 flex flex-row justify-between hover:scale-110 hover:bg-black transition hover:border-0"
                             >
                                 START LEARNING
                                 
