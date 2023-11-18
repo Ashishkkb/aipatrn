@@ -32,32 +32,40 @@ export default function Footer() {
                         <Image src={second} alt="new" />
                         <div className="text-white text-md absolute font-bold bottom-6 left-4 flex flex-col hover:dro">
                             <button
-                                className="text-white text-base border-solid border-white border-b-2 px-6 py-2 max-md:px-5 flex flex-row justify-between"
+                                className="text-white text-base border-solid border-white border-b-2 px-6 py-2 max-md:px-5 flex flex-row justify-between items-center hover:bg-red-500 hover:bg-opacity-20 hover:scale-105"
                             >
                                 Free Edit
                                 
-                                <Image src={downarrow} alt="new" className="ml-10" />
+                                <div className="ml-10 border-2 rounded-full p-2 border-white hover:bg-black hover:bg-opacity-50">
+                                    <Image src={downarrow} alt="new"  className="mx-auto hover:scale-110 transition" />
+                                </div>
                             </button>
                             <button
-                                className="text-white text-base border-solid border-white border-b-2 px-6 py-2 max-md:px-5 flex flex-row justify-between"
+                                className="text-white text-base border-solid border-white border-b-2 px-6 py-2 max-md:px-5 flex flex-row justify-between items-center hover:bg-red-500 hover:bg-opacity-20 hover:scale-105"
                             >
                                 Interactive
                                 
-                                <Image src={downarrow} alt="new" className="ml-10" />
+                                <div className="ml-10 border-2 rounded-full p-2 border-white hover:bg-black hover:bg-opacity-50">
+                                    <Image src={downarrow} alt="new"  className="mx-auto hover:scale-110 transition" />
+                                </div>
                             </button>
                             <button
-                                className="text-white text-base border-solid border-white border-b-2 px-6 py-2 max-md:px-5 flex flex-row justify-between"
+                                className="text-white text-base border-solid border-white border-b-2 px-6 py-2 max-md:px-5 flex flex-row justify-between items-center hover:bg-red-500 hover:bg-opacity-20 hover:scale-105"
                             >
                                 Easy Interface
+                                <div className="ml-10 border-2 rounded-full p-2 border-white hover:bg-black hover:bg-opacity-50">
+                                    <Image src={downarrow} alt="new"  className="mx-auto hover:scale-110 transition" />
+                                </div>
                                 
-                                <Image src={downarrow} alt="new" className="ml-10" />
                             </button>
                             <button
-                                className="text-white text-base border-solid border-white border-b-2 px-6 py-2 max-md:px-5 flex flex-row justify-between"
+                                className="text-white text-base border-solid border-white border-b-2 px-6 py-2 max-md:px-5 flex flex-row justify-between items-center hover:bg-red-500 hover:bg-opacity-20 hover:scale-105"
                             >
                                 Compare to other
                                 
-                                <Image src={downarrow} alt="new" className="ml-10" />
+                                <div className="ml-10 border-2 rounded-full p-2 border-white hover:bg-black hover:bg-opacity-50">
+                                    <Image src={downarrow} alt="new"  className="mx-auto hover:scale-110 transition" />
+                                </div>
                             </button>
                         </div>
 

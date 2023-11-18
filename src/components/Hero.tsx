@@ -40,7 +40,7 @@ const Hero: React.FC<HeroProps> = () => {
             <div className="">
               <button
                 onClick={toggleMenu}
-                className="text-black text-base leading-7 rounded-full border-solid border-gray-600 border-2 px-6 py-2 border-opacity-50 max-md:px-5"
+                className="text-black text-base leading-7 rounded-full border-solid border-gray-600 border-2 px-6 py-2 border-opacity-50 max-md:px-5 hover:text-white hover:bg-black hover:scale-125 transition"
               >
                 Menu
               </button>
