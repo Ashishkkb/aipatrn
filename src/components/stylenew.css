@@ -1,0 +1,28 @@
+/* YourComponent.css */
+
+/* Define the scrollbar styles */
+.custom-scroll {
+    width: 1400px; /* Set the width of your container */
+    overflow-x: scroll; /* Enable horizontal scrolling */
+  }
+  
+  /* Track */
+  .custom-scroll::-webkit-scrollbar {
+    width: 12px; /* You can adjust the width as needed */
+  }
+  
+  /* Track */
+  .custom-scroll::-webkit-scrollbar-track {
+    background: #f1f1f1; /* You can set a background color */
+  }
+  
+  /* Handle */
+  .custom-scroll::-webkit-scrollbar-thumb {
+    background: #888; /* You can set a color for the scrollbar handle */
+  }
+  
+  /* Handle on hover */
+  .custom-scroll::-webkit-scrollbar-thumb:hover {
+    background: #555; /* You can set a different color on hover */
+  }
+  
